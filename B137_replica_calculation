@@ -1,0 +1,2 @@
+replica tab 'calculations' cell B137 formula
+=IF(Input!B127=0,0,IF(Input!B127<=B138,0,IF(OR(Input!B124>0,Input!B125>0),IF(Input!B122="No",Input!B124*User_Parameters!F330+Input!B125*User_Parameters!F329,IF(Input!B123>0%,User_Parameters!E334*Input!B125+Input!B124*User_Parameters!G334,Input!B125*User_Parameters!E336+Input!B124*User_Parameters!G336)),IF(Input!H3="U.S. GAAP or equivalent",Input!B126*User_Parameters!F340,Input!B126*User_Parameters!F339))))
